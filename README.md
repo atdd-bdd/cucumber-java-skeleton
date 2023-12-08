@@ -1,15 +1,13 @@
 # Cucumber-Java Skeleton
 
-This is the simplest possible build script setup for Cucumber using Java.
-There is nothing fancy like a webapp or browser testing. All this does is to show
-you how to install and run Cucumber!
+This code has been adopted from the Cucumber Skeleton Code.    
+It adds support for step definition tables and gives examples of how tables are passed to step definitions 
 
-There is a single feature file with one scenario. The scenario has three steps,
-two of them pending. See if you can make them all pass!
+There is a single scenario with three steps.   Two of the steps just print the values in the table.    
 
-## Get the code
+## Get the original code - you can get a maven or a gradle version   
 
-Git:
+Git:  
 
     git clone https://github.com/cucumber/cucumber-java-skeleton.git
     cd cucumber-java-skeleton
@@ -19,7 +17,7 @@ Subversion:
     svn checkout https://github.com/cucumber/cucumber-java-skeleton/trunk cucumber-java-skeleton
     cd cucumber-java-skeleton
 
-Or [download a zip](https://github.com/cucumber/cucumber-java-skeleton/archive/main.zip) file.
+## The remainder of the instructions are copied from the original github
 
 ## Use Maven
 
@@ -31,15 +29,6 @@ Open a command window and run:
 This runs Cucumber features using Cucumber's JUnit Platform Engine. The `Suite`
 annotation on the `RunCucumberTest` class tells JUnit to kick off Cucumber.
 
-## Use Gradle
-
-Open a command window and run:
-
-    cd gradle
-    ./gradlew test --rerun-tasks --info
-
-This runs Cucumber features using Cucumber's JUnit Platform Engine. The `Suite`
-annotation on the `RunCucumberTest` class tells JUnit to kick off Cucumber.
 
 ## Overriding options
 
